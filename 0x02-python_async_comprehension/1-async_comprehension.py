@@ -15,4 +15,3 @@ async def async_comprehension() -> Generator[float, None, None]:
     """
     g = [i async for i in async_generator()]
     return g
-
